@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <com.github.lianghanzhen.LazyViewPager
+            android:id="@+id/lazy_view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:init_lazy_item_offset="0.3"
+            />
+</LinearLayout>
+
